@@ -13,7 +13,6 @@ This project demonstrates modern front‑end skills by building a movie showcase
 - **“Now Showing”** and **“Popular”** carousels powered by reusable data objects.   
 - **Responsive navigation** with dropdowns and mobile‑friendly menus.   
 
-A README file should clearly explain what your project does, how to use it, and how to contribute‡ :contentReference[oaicite:0]{index=0}.
 
 ---
 
@@ -39,8 +38,6 @@ A README file should clearly explain what your project does, how to use it, and 
 - **Pure Vanilla JS**: No frameworks—just ES6+ code in `script.js` for interactivity   
 - **Reusable Data**: Movie metadata stored in `description.js` for easy updates   
 - **Multi‑Page Layout**: Separate HTML files for Home, Now Showing, News & Updates, Join Us, Partnership, and Registration  
-
-Beautiful READMEs often include screenshots, badges, and clear sections to guide readers.§ :contentReference[oaicite:1]{index=1}
 
 ---
 
@@ -114,5 +111,3 @@ Contributions are welcome! To maintain consistency:
 
 📄 License
 This project is licensed under the MIT License—see LICENSE for details.
-
-“A well‑written README is the front door to your code.”
