@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        ul{
+            list-style-type: none;
+        }
+        .main {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding-inline: 2rem;
+            padding-top: 7rem;
+        }
+
+        .content {
+            width: 70%;
+        }
+
+        .content article {
+            background-color: white;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content article h2 {
+            font-size: 24px;
+            margin-bottom: 1rem;
+        }
+
+        .content article .date {
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .content article a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        aside {
+            width: 25%;
+            background-color: white;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        aside h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="menu">
+            <span>MOVIE</span>
+            <nav>
+                <a href="./index.html">Home</a>
+                <div class="dropdown">
+                    <a href="./new.update.html" class="dropbtn chosen">News & update
+                        <span style="margin: auto;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8"
+                                fill="none">
+                                <path
+                                    d="M13.6279 1.44336L8.71303 6.35822C8.1326 6.93866 7.1828 6.93866 6.60236 6.35822L1.6875 1.44336"
+                                    stroke="white" stroke-width="1.80915" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="./new.update.html/#cinemanews">Cinema news</a>
+                        <a href="./new.update.html/#events">Events</a>
+                        <a href="./new.update.html/#review">Movie reviews</a>
+
+                    </div>
+                </div>
+                <a href="./nowshowing.html?bg:./images/moana.jpg">Now showing</a>
+                <a href="./joinUs.html">Join us</a>
+                <a href="./partnership.html">Partnership</a>
+                <a href="./register.html" class="button1">Register</a>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <section class="content">
+            <article>
+                <h2>Blog Post Title 1</h2>
+                <p class="date">Published on: December 28, 2024</p>
+                <p>This is the first blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <a href="#">Read More</a>
+            </article>
+
+            <article>
+                <h2>Blog Post Title 2</h2>
+                <p class="date">Published on: December 28, 2024</p>
+                <p>This is the second blog post. Quisque sit amet risus vitae neque volutpat ultricies...</p>
+                <a href="#">Read More</a>
+            </article>
+        </section>
+
+        <aside>
+            <h3>About Me</h3>
+            <p>This is a brief introduction about the blog author...</p>
+
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Travel</a></li>
+            </ul>
+        </aside>
+    </div>
+
+
+
+</body>
+
+</html>

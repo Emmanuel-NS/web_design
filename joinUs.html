@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/joinUs.css">
+    <title>Join us</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="menu">
+            <span>MOVIE</span>
+            <nav>
+                <a href="./index.html">Home</a>
+                <div class="dropdown">
+                    <a href="./new.update.html" class="dropbtn">News & update
+                        <span style="margin: auto;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8"
+                                fill="none">
+                                <path
+                                    d="M13.6279 1.44336L8.71303 6.35822C8.1326 6.93866 7.1828 6.93866 6.60236 6.35822L1.6875 1.44336"
+                                    stroke="white" stroke-width="1.80915" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="./new.update.html/#cinemanews">Cinema news</a>
+                        <a href="./new.update.html/#events">Events</a>
+                        <a href="./new.update.html/#review">Movie reviews</a>
+
+                    </div>
+                </div>
+                <a href="./nowshowing.html?bg:./images/moana.jpg">Now showing</a>
+                <a href="./joinUs.html" class="chosen">Join us</a>
+                <a href="./partnership.html">Partnership</a>
+                <a href="./register.html" class="button1">Register</a>
+            </nav>
+        </div>
+    </header>
+    <div class="contain">
+        <h2>Job Postings</h1>
+            <table class="job-table">
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Department</th>
+                        <th>Location</th>
+                        <th>Application Deadline</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Software Engineer</td>
+                        <td>IT</td>
+                        <td>New York, NY</td>
+                        <td>Jan 15, 2025</td>
+                        <td><a href="mailto:careers@example.com" class="apply-button">Apply Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Marketing Specialist</td>
+                        <td>Marketing</td>
+                        <td>Los Angeles, CA</td>
+                        <td>Feb 1, 2025</td>
+                        <td><a href="mailto:careers@example.com" class="apply-button">Apply Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Data Analyst</td>
+                        <td>Analytics</td>
+                        <td>Chicago, IL</td>
+                        <td>Jan 20, 2025</td>
+                        <td><a href="mailto:careers@example.com" class="apply-button">Apply Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Software Engineer</td>
+                        <td>IT</td>
+                        <td>New York, NY</td>
+                        <td>Jan 15, 2025</td>
+                        <td><a href="mailto:careers@example.com" class="apply-button">Apply Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Marketing Specialist</td>
+                        <td>Marketing</td>
+                        <td>Los Angeles, CA</td>
+                        <td>Feb 1, 2025</td>
+                        <td><a href="mailto:careers@example.com" class="apply-button">Apply Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Data Analyst</td>
+                        <td>Analytics</td>
+                        <td>Chicago, IL</td>
+                        <td>Jan 20, 2025</td>
+                        <td><a href="mailto:careers@example.com" class="apply-button">Apply Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Software Engineer</td>
+                        <td>IT</td>
+                        <td>New York, NY</td>
+                        <td>Jan 15, 2025</td>
+                        <td><a href="mailto:careers@example.com" class="apply-button">Apply Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Marketing Specialist</td>
+                        <td>Marketing</td>
+                        <td>Los Angeles, CA</td>
+                        <td>Feb 1, 2025</td>
+                        <td><a href="mailto:careers@example.com" class="apply-button">Apply Now</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+    </div>
+    <script>
+        window.addEventListener('scroll', () => {
+
+            const scrollHeight = window.scrollY;
+            if (scrollHeight < 50) {
+                header.style.backgroundColor = '';
+                header.style.backdropFilter = ''
+            } else {
+                header.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+                header.style.backdropFilter = 'blur(5px)'
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

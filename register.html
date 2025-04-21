@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/register.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="parent">
+        <header id="header">
+            <div class="menu">
+                <span>MOVIE</span>
+                <nav>
+                    <a href="./index.html">Home</a>
+                    <div class="dropdown">
+                        <a href="./new.update.html" class="dropbtn">News & update
+                            <span style="margin: auto;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8"
+                                    fill="none">
+                                    <path
+                                        d="M13.6279 1.44336L8.71303 6.35822C8.1326 6.93866 7.1828 6.93866 6.60236 6.35822L1.6875 1.44336"
+                                        stroke="white" stroke-width="1.80915" stroke-miterlimit="10"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="./new.update.html/#cinemanews">Cinema news</a>
+                            <a href="./new.update.html/#events">Events</a>
+                            <a href="./new.update.html/#review">Movie reviews</a>
+
+                        </div>
+                    </div>
+                    <a href="./nowshowing.html?bg:./images/moana.jpg">Now showing</a>
+                    <a href="./joinUs.html">Join us</a>
+                    <a href="./partnership.html">Partnership</a>
+                    <a href="./register.html" class="button1" class="chosen">Register</a>
+                </nav>
+
+        </header>
+        <div style="display: flex;width: 90%; margin: auto;">
+            <p class="heading touch">Enjoy more by tracking your favorite shows by creating an account</p>
+            <div class="contain1">
+                <div class="logo-container">
+                    <h2 class="heading">Sign up </h2>
+                </div>
+
+                <div class="form-wrapper">
+                    <form class="form" action="#" method="POST">
+                        <div class="form-group">
+                            <p for="name" class="label">Full name</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="name" id="name" autocomplete="name" required class="input">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <p for="email" class="label">Email address</label>
+                            <div class="input-wrapper">
+                                <input type="email" name="email" id="email" autocomplete="email" required class="input">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+
+                            <p for="password" class="label">Password</p>
+                            <div class="input-wrapper">
+                                <input type="password" name="password" id="password" autocomplete="new-password"
+                                    required class="input">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <p for="password" class="label">Re-enter password</label>
+                            <div class="input-wrapper">
+                                <input type="password" name="password" id="password" required class="input">
+                            </div>
+                        </div>
+
+                        <div class="button-container">
+                            <button type="submit" class="submit-button">Sign in</button>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+        <script>
+            window.addEventListener('scroll', () => {
+    
+                const scrollHeight = window.scrollY;
+                if (scrollHeight ==0) {
+                    header.style.backgroundColor = '';
+                    header.style.backdropFilter = ''
+                } else {
+                    header.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+                    header.style.backdropFilter = 'blur(5px)'
+                }
+            });
+    
+        </script>
+
+    </div>
+
+</body>
+
+</html>

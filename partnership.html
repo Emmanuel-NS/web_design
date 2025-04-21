@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partnership Opportunities</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/partner.css">
+</head>
+<body>
+    <header id="header">
+        <div class="menu">
+            <span>MOVIE</span>
+            <nav>
+                <a href="./index.html">Home</a>
+                <div class="dropdown">
+                    <a href="./new.update.html" class="dropbtn">News & update
+                        <span style="margin: auto;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8"
+                                fill="none">
+                                <path
+                                    d="M13.6279 1.44336L8.71303 6.35822C8.1326 6.93866 7.1828 6.93866 6.60236 6.35822L1.6875 1.44336"
+                                    stroke="white" stroke-width="1.80915" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="./new.update.html/#cinemanews">Cinema news</a>
+                        <a href="./new.update.html/#events">Events</a>
+                        <a href="./new.update.html/#review">Movie reviews</a>
+
+                    </div>
+                </div>
+                <a href="./nowshowing.html?bg:./images/moana.jpg" >Now showing</a>
+                <a href="./joinUs.html" >Join us</a>
+                <a href="./partnership.html" class="chosen">Partnership</a>
+                <a href="./register.html" class="button1">Register</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container5">
+        <div class="navbar">
+            <a href="#overview">Overview</a>
+            <a href="#benefits">Benefits</a>
+            <a href="#requirements">Requirements</a>
+            <a href="#geographic-location">Geographic Location</a>
+           
+        </div>
+
+        <div class="content">
+            <section id="overview">
+                <h2>Overview</h2>
+                <p>Learn about our partnership opportunities and how you can collaborate with us to grow together. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, ipsam deserunt facere neque natus perferendis debitis saepe. Iure culpa vitae, vel sequi ratione nam qui! Iure quo temporibus voluptatum possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laudantium, voluptatum, beatae provident accusamus iure voluptatem et deleniti excepturi cum error rerum veritatis quisquam ipsa sint. Harum possimus praesentium dolorum. ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, optio? Aliquam est ipsum aperiam eius reprehenderit assumenda magnam excepturi quisquam nemo? Magni maxime accusantium officiis ullam ab vel nam eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tenetur provident maxime. Repudiandae animi et illum nemo, dolores similique quos, corrupti eos vero ipsam veniam porro voluptates repellat itaque sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa earum iste eveniet libero in quos ducimus. Distinctio quis sint iste? Voluptatum doloribus laudantium dolorum fuga sequi at blanditiis eligendi non?</p>
+            </section>
+
+            <section id="benefits">
+                <h2>Benefits</h2>
+                <p>Our partners enjoy exclusive benefits such as access to resources, co-marketing opportunities, and more. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, excepturi sed ut vero ipsa, assumenda qui nisi neque nulla quisquam fuga perferendis sit quibusdam est, dolorem architecto cupiditate fugit iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nemo repellat commodi soluta, cupiditate dolor. Dolorem suscipit temporibus ratione optio. Ipsam eos, incidunt blanditiis autem ut aspernatur inventore? Aspernatur, illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium amet nihil suscipit doloremque saepe cupiditate illum nulla doloribus tenetur aliquam aliquid, quia officiis facere ipsa temporibus sapiente accusantium, dolorum corrupti.</p>
+            </section>
+
+            <section id="requirements">
+                <h2>Requirements</h2>
+                <p>To become a partner, ensure you meet our requirements, including commitment to shared goals and values. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quibusdam, ea consectetur maiores nisi aspernatur unde, libero, enim impedit dignissimos laboriosam nam necessitatibus? Ipsa nostrum facilis, quos obcaecati provident quae.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore reprehenderit eos similique ratione vero odit quos laudantium veniam velit quam tenetur assumenda molestiae, mollitia sed reiciendis nobis dolor ipsa rerum.</p>
+            </section>
+
+            <section id="geographic-location">
+                <h2>Geographic Location</h2>
+                <p>We are located in a prime area to facilitate easy collaboration and access. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempora inventore expedita ad molestias aliquam deleniti, quia incidunt beatae accusamus velit eaque necessitatibus? Quam atque, esse temporibus quisquam quibusdam accusantium?</p>
+                <div class="map-container">
+                    <iframe 
+                        title="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509317!2d144.95373531550463!3d-37.81627974202195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf57727dc04b8b5c6!2sEnvato!5e0!3m2!1sen!2sus!4v1617933012386!5m2!1sen!2sus"
+                        allowfullscreen="true"
+                        loading="lazy">
+                        
+                    </iframe>
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+    <script>
+        window.addEventListener('scroll', () => {
+
+            const scrollHeight = window.scrollY;
+            if (scrollHeight < 50) {
+                header.style.backgroundColor = '';
+                header.style.backdropFilter = ''
+            } else {
+                header.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+                header.style.backdropFilter = 'blur(5px)'
+            }
+        });
+
+    </script>
+</body>
+</html>
